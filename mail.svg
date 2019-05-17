@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="184" height="134">
+    <defs>
+        <linearGradient id="a" x1="0%" y1="50%" y2="50%">
+            <stop offset="0%" stop-color="#FFDA3E"/>
+            <stop offset="36.899%" stop-color="#FFB137"/>
+            <stop offset="62.182%" stop-color="#FFAD37"/>
+            <stop offset="100%" stop-color="#FFDA3E"/>
+        </linearGradient>
+        <linearGradient id="b" x1="50%" x2="50%" y1="19.237%" y2="70.94%">
+            <stop offset="0%" stop-color="#FFC13A"/>
+            <stop offset="100%" stop-color="#FFDA3E"/>
+        </linearGradient>
+        <path id="c" d="M92 34L0 134h184z"/>
+        <linearGradient id="d" x1="50%" x2="52.695%" y1=".832%" y2="50%">
+            <stop offset="0%" stop-color="#FF6562"/>
+            <stop offset="100%" stop-color="#F33"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path fill="url(#a)" d="M0 134h184V0H0z"/>
+        <use fill="url(#b)" xlink:href="#c"/>
+        <use fill="#FFDA3E" xlink:href="#c"/>
+        <path fill="url(#d)" d="M184 0l-82.41 80.082a13.697 13.697 0 0 1-19.18 0L0 0h184z" transform="matrix(-1 0 0 1 184 0)"/>
+    </g>
+</svg>
