@@ -66,18 +66,18 @@ body {
 }
 
 
-.tile_inner[data-service="disk"] .dashboard-item__icon {
+.dashboard-item__icon[data-service="disk"] {
     background-image: url('disk.svg');
 }
 
-.tile_inner[data-service="mail"] .dashboard-item__icon {
+.dashboard-item__icon[data-service="mail"]  {
     background-image: url('mail.svg');
     background-size: 134px;
     right: -24px;
     top: -27px;
 }
 
-.tile_inner[data-service="staff"] .dashboard-item__icon {
+.dashboard-item__icon[data-service="staff"] {
     background-image: url('staff.svg');
     background-size: 134px;
     right: -24px;
@@ -85,7 +85,7 @@ body {
     
 }
 
-.tile_inner[data-service="tracker"] .dashboard-item__icon {
+.dashboard-item__icon[data-service="tracker"] {
     background-image: url('tracker.svg');
     background-size: 104px;
     right: -24px;
